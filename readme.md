@@ -4,6 +4,8 @@
 
 NetBeans has in-built support for deploying and running code on a remote system, but that is not available for Maven projects. The pom file in this project uses the exec plugin and PuTTY to copy the built artefacts to the remote system. 
 
+Adapted from [How to Run Maven-Based Projects on a Remote Raspberry Pi Using NetBeans (Part 2)](https://dzone.com/articles/how-to-run-maven-based-projects-on-a-remote-raspbe) to use PuTTY and use project properties instead of static script file.
+
 ### Requiremens
 
 * PuTTY
